@@ -1,0 +1,10 @@
+
+# The addHoliday and removeHoliday methods in the calendar can be used to add and remove
+holidays to the calendar respectively. If a calendar has any missing holidays or has a wrong holiday,
+then these methods come handy in fixing the errors. The businessDaysBetween method helps find
+out the number of business days between two dates per a given calendar. Let us use this method on
+the us_calendar and italy_calendar as a sanity check.
+
+ # In valuation of certain deals, more than one calendar’s holidays are observed. QuantLib has
+JointCalendar class that allows you to combine the holidays of two or more calendars. Let us
+take a look at a working example.
